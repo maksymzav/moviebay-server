@@ -3,7 +3,10 @@
 ##How to start
 
 `npm install`
+
 `npm start`
+
+Your server is available on http://localhost:3000.
 
 ##Preconditions
 You need to have Node.js 6+ and MongoDB 3+ installed and running on your computer.
