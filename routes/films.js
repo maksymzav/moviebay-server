@@ -25,7 +25,7 @@ router.get('/id/:id', (req, res, next) => {
                 res.statusCode = 404;
                 res.json(Response.notFoundError('User not found.'));
             } else {
-                res.json(Response.getSuccess(new Film(Film)));
+                res.json(Response.getSuccess(new Film(film)));
             }
         });
     });
