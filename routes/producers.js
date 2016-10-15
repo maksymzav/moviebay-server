@@ -54,7 +54,7 @@ router.post('/', (req, res, next) => {
     mongoPromise.then(collection => {
         collection.insertOne(producer)
             .then(() => {
-                res.json(Response.deleteSuccess());
+                res.json(Response.createSuccess());
             });
     });
 });
